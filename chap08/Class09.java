@@ -30,14 +30,13 @@ class CCalculator{
 
     int avg(){
         
-        return (a+b+c)/3;
+        return ((a+b+c)/3);
     }
 }
 public class Class09 {
 
     public static void main(String[] args) {
         CCalculator obj = new CCalculator();
-        //obj.set_value(obj.a, obj.b, obj.c);
         obj.a=25;
         obj.b=3;
         obj.c=7;
