@@ -1,5 +1,5 @@
 
-class CBox2{
+class CBox{
     int length;
     int width;
     int height;
@@ -32,7 +32,7 @@ public class Class05 {
     
     public static void main(String[] args){
 
-        CBox2 box = new CBox2();
+        CBox box = new CBox();
         box.length = 1;
         box.width = 1;
         box.height = 1;
