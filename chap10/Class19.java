@@ -21,10 +21,7 @@ public class Class19 {
     public static void main(String[] args) {
         
         CRectangle rect = new CRectangle(2, 6);
-        rect.println();
-
-        System.out.println(rect.toString());
-    
+        rect.println();    
     
     }
 }
